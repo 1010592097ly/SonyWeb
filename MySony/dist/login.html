@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>登陆页面</title><link rel="stylesheet" href="./css/login.min.css"></head><body><div class="login"><div class="user"><input type="text" id="name" placeholder="请输入用户名"></div><div class="password"><input type="text" id="password" placeholder="请输入密码"></div><div class="alert" id="alert"><span></span></div><div class="btn"><span><a href="./register.html">没有账号，去注册</a></span> <button id="btn">登陆</button></div></div><script type="module">import {$post, antiShake} from "./js/ajax.js";
+        var aInputs = document.querySelectorAll(".login input");
+        var aAlert = document.getElementById("alert");
+        var oBtn = document.getElementById("btn");
+
+
+        oBtn.onclick = antiShake(download,1000);
+            function download(){
+                $post({
+                    url: "phps/login.php",
+                    data: {
+                        username: aInputs[0].value,
+                        password: aInputs[1].value,
+                    },
+                    success: function(result){
+                        console.log(result);
+                        var obj = JSON.parse(result);
+                        aAlert.style.display = 'block';
+                        if(obj.code){
+                            //错误
+                            aAlert.innerHTML = obj.msg;
+                            aAlert.style.color = "red";
+                        }else{
+                            //成功
+                            aAlert.innerHTML = obj.msg;
+                            aAlert.style.color = "green";
+                            setTimeout(() => {
+                                location.assign("./index.html");
+                            }, 500);
+                        }
+                    },
+                    error: function(msg){
+                        console.log(msg);
+                    }
+                })
+            }</script></body></html>

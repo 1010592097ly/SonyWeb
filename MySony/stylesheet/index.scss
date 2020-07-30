@@ -1,0 +1,593 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.whole{
+    background-color: black;
+    .nav{
+        width: 1200px;
+        height: 50px;
+        background-color: black;
+        margin: 0 auto;
+        .nav_item{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            z-index: 2;
+            .logo{
+                width: 100px;
+                height: 50;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .goods{
+                margin-left: 20px;
+                position: relative;
+                .goods_list{
+                    position: absolute;
+                    top: 23px;
+                    left: -124px;
+                    width: 1200px;
+                    height: 500px;
+                    // background-color: green;
+                    margin:  0 auto;
+                    display: none;
+                    border: 1px solid black;
+                    .list{
+                        width: 100%;
+                        height: 100%;
+                        .left{
+                            width: 250px;
+                            height: 100%;
+                            background:rgb(207, 203, 203);
+                            float: left;
+                            span{
+                                display: block;
+                                width: 300px;
+                                height: 28px;
+                                margin-top: 10px;
+                                margin-left: 30px;
+                                &:hover{
+                                    color: red;
+                                }
+                            }
+                        }
+                        .center{
+                            width: 800px;
+                            height: 100%;
+                            background-color:white;
+                            float: left;
+                            .center_list li{
+                                width: 180px;
+                                height: 220px;
+                                // background-color: white;
+                                float: left;
+                                margin-top: 20px;
+                                margin-left: 16px;
+                                img{
+                                    width: 180px;
+                                    height: 180px;
+                                    background-color: plum;
+                                }
+                                h5{
+                                    text-align: center;  
+                                }
+                                span{
+                                    display: block;
+                                    text-align: center;
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                        .right{
+                            width: 150px;
+                            height: 100%;
+                            background-color: palegreen;
+                            float: left;
+                        }
+                    }
+                }    
+                }
+                span{
+                    a{
+                    font-size: 18px;
+                    color: white;
+                    &:hover{
+                        color: purple; 
+                    }
+                    
+                }
+            }
+            .web{
+                margin-left: 20px;
+                position: relative;
+                &:hover .weblist{
+                    display: block;
+                }
+                span{
+                    a
+                    {font-size: 18px;
+                    color: white;
+                    &:hover{
+                        color: purple; 
+                    }}
+                }
+                .weblist{
+                    width: 900px;
+                    height: 400px;
+                    position: absolute;
+                    top: 23px;
+                    left: -66px;
+                    background: black;
+                    display: none;
+                    .weblist1{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                            display: block;
+                            width: 200px;
+                            height: 20px;
+                            margin-top: 20px;
+                            float: left;
+                            margin-left: 20px;
+                            color: white;
+                            &:hover{
+                                color: red;
+                            }
+                        }
+                    }
+
+                }
+            }
+            .ainput{
+                margin-left: 20px;
+                input{
+                    width: 180px;
+                    height: 25px;
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    outline: none;
+                }
+            }
+            .lr{
+                margin-left: 150px;
+                span {
+                    font-size: 10px;
+                    color: gray;
+                    a{
+                        font-size: 15px;
+                        color: blue;
+                        font-weight: 900;
+                    }
+                }
+            }
+            .mysony{
+                margin-left: 25px;
+                position: relative;
+                &:hover .mysony_list{
+                    display: block;
+                    }
+                span {
+                    font-size: 10px;
+                    color: gray;
+                    a{font-size: 15px;color: white;font-weight: 900;
+                        &:hover{
+                            color: purple; 
+                        }}
+                }
+                .mysony_list{
+                    position: absolute;
+                    left: -18px;
+                    top: 20px;
+                    width: 100px;
+                    height: 300px;
+                    background-color: black;
+                    display: none;
+                    ul li{
+                        margin-top: 15px;
+                        font-size: 15px;
+                        color: white;
+                        text-align: center;
+                        border-bottom: 1px solid white;
+                        &:hover{
+                            color: red;
+                        }
+                    }
+                }
+            }
+            .serve{
+                margin-left: 25px;
+                position: relative;
+                &:hover .serve_list{
+                    display: block;
+                    }
+                span {font-size: 10px;
+                    color: gray;
+                    a{
+                        font-size: 15px;
+                        color: white;
+                        font-weight: 900;
+                        &:hover{
+                            color: purple; 
+                        }
+                    }
+                }
+                .serve_list{
+                    position: absolute;
+                    left: -10px;
+                    top: 20px;
+                    width: 100px;
+                    height: 300px;
+                    background-color: black;
+                    display: none;
+                    ol li{
+                        margin-top: 15px;
+                        font-size: 15px;
+                        color: white;
+                        text-align: center;
+                        border-bottom: 1px solid white;
+                        &:hover{
+                            color: red;
+                        }
+                    }
+                }
+            }
+            .goods_car{
+                margin-left: 25px;
+                span {font-size: 10px;
+                    color: gray;
+                    a{
+                        font-size: 15px;
+                        color: white;
+                        font-weight: 900;
+                        &:hover{
+                            color: purple; 
+                        }
+                    }
+                }
+            }
+            .gweb{
+                margin-left: 25px;
+                span {font-size: 10px;
+                    color: gray;
+                    a{
+                        font-size: 15px;
+                        color: white;
+                        font-weight: 900;
+                        &:hover{
+                            color: purple; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .strip{
+        margin: 0 auto;
+        width: 1500px;
+        height: 80px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        .left{
+            margin-left: 120px;
+            color: gray;
+        }
+        .right{
+            margin-left: 1000px;
+        }
+    }
+
+    .search_banner{
+        margin: 0 auto;
+        width: 1500px;
+        height: 200px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid orangered;
+    }
+    .goods_List{
+        margin: 0 auto;
+        width: 1500px;
+        height: 4860px;
+        background-color:white;
+        border-bottom: 2px solid black;
+        .goods_List_top{
+            width: 1250px;
+            height: 800px;
+            margin: 0 auto;
+            border-bottom: 1px solid gray;
+            // background-color: palegreen;
+            .left{
+                width: 300px;
+                height: 100%;
+                // background-color: palevioletred;
+                float: left;
+                h3{
+                    display: block;
+                    width: 100%;
+                    height: 200px;
+                    line-height: 200px;
+                    font-size: 23px;
+                    font-weight: 400;
+                }
+                span a{
+                    color: blueviolet;
+                    font-size: 15px;
+                }
+            }
+            .right{
+                width: 950px;
+                height: 100%;
+                // background-color: cornflowerblue;
+                float: left;
+                
+                .right_list li{
+                    float: left;
+                    width: 222px;
+                    height: 380px;
+                    // background-color: brown;
+                    margin-left: 12px;
+                    margin-top: 10px;
+                    border: 1px solid rgb(219, 213, 213);
+                    &:hover{
+                        border: 1px solid blue;
+                    }
+                    img{
+                        width: 200px;
+                        height: 250px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                    }
+                    h4 a{
+                        display: block;
+                        color: black;
+                        font-size: 15px;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                    }
+                    .word{
+                        width: 100%;
+                        height: 40px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                        color: skyblue;
+                        .price{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .goods_List_YP{
+            width: 1250px;
+            height: 800px;
+            margin: 0 auto;
+            border-bottom: 1px solid gray;
+            // background-color: palegreen;
+            .left{
+                width: 300px;
+                height: 100%;
+                // background-color: palevioletred;
+                float: left;
+                h3{
+                    display: block;
+                    width: 100%;
+                    height: 200px;
+                    line-height: 200px;
+                    font-size: 23px;
+                    font-weight: 400;
+                }
+                span a{
+                    color: blueviolet;
+                    font-size: 15px;
+                }
+            }
+            .right{
+                width: 950px;
+                height: 100%;
+                // background-color: cornflowerblue;
+                float: left;
+                
+                .right_list li{
+                    float: left;
+                    width: 222px;
+                    height: 380px;
+                    // background-color: brown;
+                    margin-left: 12px;
+                    margin-top: 10px;
+                    border: 1px solid rgb(219, 213, 213);
+                    &:hover{
+                        border: 1px solid blue;
+                    }
+                    img{
+                        width: 200px;
+                        height: 250px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                    }
+                    h4 a{
+                        display: block;
+                        color: black;
+                        font-size: 15px;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                    }
+                    .word{
+                        width: 100%;
+                        height: 40px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                        color: skyblue;
+                        .price{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .goods_List_TV{
+            width: 1250px;
+            height: 800px;
+            margin: 0 auto;
+            border-bottom: 1px solid gray;
+            // background-color: palegreen;
+            .left{
+                width: 300px;
+                height: 100%;
+                // background-color: palevioletred;
+                float: left;
+                h3{
+                    display: block;
+                    width: 100%;
+                    height: 200px;
+                    line-height: 200px;
+                    font-size: 23px;
+                    font-weight: 400;
+                }
+                span a{
+                    color: blueviolet;
+                    font-size: 15px;
+                }
+            }
+            .right{
+                width: 950px;
+                height: 100%;
+                // background-color: cornflowerblue;
+                float: left;
+                
+                .right_list li{
+                    float: left;
+                    width: 222px;
+                    height: 380px;
+                    // background-color: brown;
+                    margin-left: 12px;
+                    margin-top: 10px;
+                    border: 1px solid rgb(219, 213, 213);
+                    &:hover{
+                        border: 1px solid blue;
+                    }
+                    img{
+                        width: 200px;
+                        height: 250px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                    }
+                    h4 a{
+                        display: block;
+                        color: black;
+                        font-size: 15px;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                    }
+                    .word{
+                        width: 100%;
+                        height: 40px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                        color: skyblue;
+                        .price{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .goods_List_GAME{
+            width: 1250px;
+            height: 800px;
+            margin: 0 auto;
+            border-bottom: 1px solid gray;
+            // background-color: palegreen;
+            .left{
+                width: 300px;
+                height: 100%;
+                // background-color: palevioletred;
+                float: left;
+                h3{
+                    display: block;
+                    width: 100%;
+                    height: 200px;
+                    line-height: 200px;
+                    font-size: 23px;
+                    font-weight: 400;
+                }
+                span a{
+                    color: blueviolet;
+                    font-size: 15px;
+                }
+            }
+            .right{
+                width: 950px;
+                height: 100%;
+                // background-color: cornflowerblue;
+                float: left;
+                
+                .right_list li{
+                    float: left;
+                    width: 222px;
+                    height: 380px;
+                    // background-color: brown;
+                    margin-left: 12px;
+                    margin-top: 10px;
+                    border: 1px solid rgb(219, 213, 213);
+                    &:hover{
+                        border: 1px solid blue;
+                    }
+                    img{
+                        width: 200px;
+                        height: 250px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                    }
+                    h4 a{
+                        display: block;
+                        color: black;
+                        font-size: 15px;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                    }
+                    .word{
+                        width: 100%;
+                        height: 40px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                        color: skyblue;
+                        .price{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .footer{
+        width: 1500px;
+        height: 1020px;
+        margin: 0 auto;
+        .footer1{
+            width: 1500px;
+            height: 300px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .footer2{
+            width: 1500px;
+            height: 720px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+
+    }
+}

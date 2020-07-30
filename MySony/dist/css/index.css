@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.whole {
+  background-color: black; }
+  .whole .nav {
+    width: 1200px;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto; }
+    .whole .nav .nav_item {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      z-index: 2; }
+      .whole .nav .nav_item .logo {
+        width: 100px;
+        height: 50; }
+        .whole .nav .nav_item .logo img {
+          width: 100%;
+          height: 100%; }
+      .whole .nav .nav_item .goods {
+        margin-left: 20px;
+        position: relative; }
+        .whole .nav .nav_item .goods .goods_list {
+          position: absolute;
+          top: 23px;
+          left: -124px;
+          width: 1200px;
+          height: 500px;
+          margin: 0 auto;
+          display: none;
+          border: 1px solid black; }
+          .whole .nav .nav_item .goods .goods_list .list {
+            width: 100%;
+            height: 100%; }
+            .whole .nav .nav_item .goods .goods_list .list .left {
+              width: 250px;
+              height: 100%;
+              background: #cfcbcb;
+              float: left; }
+              .whole .nav .nav_item .goods .goods_list .list .left span {
+                display: block;
+                width: 300px;
+                height: 28px;
+                margin-top: 10px;
+                margin-left: 30px; }
+                .whole .nav .nav_item .goods .goods_list .list .left span:hover {
+                  color: red; }
+            .whole .nav .nav_item .goods .goods_list .list .center {
+              width: 800px;
+              height: 100%;
+              background-color: white;
+              float: left; }
+              .whole .nav .nav_item .goods .goods_list .list .center .center_list li {
+                width: 180px;
+                height: 220px;
+                float: left;
+                margin-top: 20px;
+                margin-left: 16px; }
+                .whole .nav .nav_item .goods .goods_list .list .center .center_list li img {
+                  width: 180px;
+                  height: 180px;
+                  background-color: plum; }
+                .whole .nav .nav_item .goods .goods_list .list .center .center_list li h5 {
+                  text-align: center; }
+                .whole .nav .nav_item .goods .goods_list .list .center .center_list li span {
+                  display: block;
+                  text-align: center;
+                  font-size: 13px; }
+            .whole .nav .nav_item .goods .goods_list .list .right {
+              width: 150px;
+              height: 100%;
+              background-color: palegreen;
+              float: left; }
+      .whole .nav .nav_item span a {
+        font-size: 18px;
+        color: white; }
+        .whole .nav .nav_item span a:hover {
+          color: purple; }
+      .whole .nav .nav_item .web {
+        margin-left: 20px;
+        position: relative; }
+        .whole .nav .nav_item .web:hover .weblist {
+          display: block; }
+        .whole .nav .nav_item .web span a {
+          font-size: 18px;
+          color: white; }
+          .whole .nav .nav_item .web span a:hover {
+            color: purple; }
+        .whole .nav .nav_item .web .weblist {
+          width: 900px;
+          height: 400px;
+          position: absolute;
+          top: 23px;
+          left: -66px;
+          background: black;
+          display: none; }
+          .whole .nav .nav_item .web .weblist .weblist1 {
+            width: 100%;
+            height: 100%; }
+            .whole .nav .nav_item .web .weblist .weblist1 li {
+              display: block;
+              width: 200px;
+              height: 20px;
+              margin-top: 20px;
+              float: left;
+              margin-left: 20px;
+              color: white; }
+              .whole .nav .nav_item .web .weblist .weblist1 li:hover {
+                color: red; }
+      .whole .nav .nav_item .ainput {
+        margin-left: 20px; }
+        .whole .nav .nav_item .ainput input {
+          width: 180px;
+          height: 25px;
+          border: 1px solid black;
+          border-radius: 10px;
+          outline: none; }
+      .whole .nav .nav_item .lr {
+        margin-left: 150px; }
+        .whole .nav .nav_item .lr span {
+          font-size: 10px;
+          color: gray; }
+          .whole .nav .nav_item .lr span a {
+            font-size: 15px;
+            color: blue;
+            font-weight: 900; }
+      .whole .nav .nav_item .mysony {
+        margin-left: 25px;
+        position: relative; }
+        .whole .nav .nav_item .mysony:hover .mysony_list {
+          display: block; }
+        .whole .nav .nav_item .mysony span {
+          font-size: 10px;
+          color: gray; }
+          .whole .nav .nav_item .mysony span a {
+            font-size: 15px;
+            color: white;
+            font-weight: 900; }
+            .whole .nav .nav_item .mysony span a:hover {
+              color: purple; }
+        .whole .nav .nav_item .mysony .mysony_list {
+          position: absolute;
+          left: -18px;
+          top: 20px;
+          width: 100px;
+          height: 300px;
+          background-color: black;
+          display: none; }
+          .whole .nav .nav_item .mysony .mysony_list ul li {
+            margin-top: 15px;
+            font-size: 15px;
+            color: white;
+            text-align: center;
+            border-bottom: 1px solid white; }
+            .whole .nav .nav_item .mysony .mysony_list ul li:hover {
+              color: red; }
+      .whole .nav .nav_item .serve {
+        margin-left: 25px;
+        position: relative; }
+        .whole .nav .nav_item .serve:hover .serve_list {
+          display: block; }
+        .whole .nav .nav_item .serve span {
+          font-size: 10px;
+          color: gray; }
+          .whole .nav .nav_item .serve span a {
+            font-size: 15px;
+            color: white;
+            font-weight: 900; }
+            .whole .nav .nav_item .serve span a:hover {
+              color: purple; }
+        .whole .nav .nav_item .serve .serve_list {
+          position: absolute;
+          left: -10px;
+          top: 20px;
+          width: 100px;
+          height: 300px;
+          background-color: black;
+          display: none; }
+          .whole .nav .nav_item .serve .serve_list ol li {
+            margin-top: 15px;
+            font-size: 15px;
+            color: white;
+            text-align: center;
+            border-bottom: 1px solid white; }
+            .whole .nav .nav_item .serve .serve_list ol li:hover {
+              color: red; }
+      .whole .nav .nav_item .goods_car {
+        margin-left: 25px; }
+        .whole .nav .nav_item .goods_car span {
+          font-size: 10px;
+          color: gray; }
+          .whole .nav .nav_item .goods_car span a {
+            font-size: 15px;
+            color: white;
+            font-weight: 900; }
+            .whole .nav .nav_item .goods_car span a:hover {
+              color: purple; }
+      .whole .nav .nav_item .gweb {
+        margin-left: 25px; }
+        .whole .nav .nav_item .gweb span {
+          font-size: 10px;
+          color: gray; }
+          .whole .nav .nav_item .gweb span a {
+            font-size: 15px;
+            color: white;
+            font-weight: 900; }
+            .whole .nav .nav_item .gweb span a:hover {
+              color: purple; }
+  .whole .strip {
+    margin: 0 auto;
+    width: 1500px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center; }
+    .whole .strip .left {
+      margin-left: 120px;
+      color: gray; }
+    .whole .strip .right {
+      margin-left: 1000px; }
+  .whole .search_banner {
+    margin: 0 auto;
+    width: 1500px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid orangered; }
+  .whole .goods_List {
+    margin: 0 auto;
+    width: 1500px;
+    height: 4860px;
+    background-color: white;
+    border-bottom: 2px solid black; }
+    .whole .goods_List .goods_List_top {
+      width: 1250px;
+      height: 800px;
+      margin: 0 auto;
+      border-bottom: 1px solid gray; }
+      .whole .goods_List .goods_List_top .left {
+        width: 300px;
+        height: 100%;
+        float: left; }
+        .whole .goods_List .goods_List_top .left h3 {
+          display: block;
+          width: 100%;
+          height: 200px;
+          line-height: 200px;
+          font-size: 23px;
+          font-weight: 400; }
+        .whole .goods_List .goods_List_top .left span a {
+          color: blueviolet;
+          font-size: 15px; }
+      .whole .goods_List .goods_List_top .right {
+        width: 950px;
+        height: 100%;
+        float: left; }
+        .whole .goods_List .goods_List_top .right .right_list li {
+          float: left;
+          width: 222px;
+          height: 380px;
+          margin-left: 12px;
+          margin-top: 10px;
+          border: 1px solid #dbd5d5; }
+          .whole .goods_List .goods_List_top .right .right_list li:hover {
+            border: 1px solid blue; }
+          .whole .goods_List .goods_List_top .right .right_list li img {
+            width: 200px;
+            height: 250px;
+            margin-left: 10px;
+            margin-top: 10px; }
+          .whole .goods_List .goods_List_top .right .right_list li h4 a {
+            display: block;
+            color: black;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px; }
+          .whole .goods_List .goods_List_top .right .right_list li .word {
+            width: 100%;
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 10px;
+            color: skyblue; }
+            .whole .goods_List .goods_List_top .right .right_list li .word .price {
+              font-size: 25px; }
+    .whole .goods_List .goods_List_YP {
+      width: 1250px;
+      height: 800px;
+      margin: 0 auto;
+      border-bottom: 1px solid gray; }
+      .whole .goods_List .goods_List_YP .left {
+        width: 300px;
+        height: 100%;
+        float: left; }
+        .whole .goods_List .goods_List_YP .left h3 {
+          display: block;
+          width: 100%;
+          height: 200px;
+          line-height: 200px;
+          font-size: 23px;
+          font-weight: 400; }
+        .whole .goods_List .goods_List_YP .left span a {
+          color: blueviolet;
+          font-size: 15px; }
+      .whole .goods_List .goods_List_YP .right {
+        width: 950px;
+        height: 100%;
+        float: left; }
+        .whole .goods_List .goods_List_YP .right .right_list li {
+          float: left;
+          width: 222px;
+          height: 380px;
+          margin-left: 12px;
+          margin-top: 10px;
+          border: 1px solid #dbd5d5; }
+          .whole .goods_List .goods_List_YP .right .right_list li:hover {
+            border: 1px solid blue; }
+          .whole .goods_List .goods_List_YP .right .right_list li img {
+            width: 200px;
+            height: 250px;
+            margin-left: 10px;
+            margin-top: 10px; }
+          .whole .goods_List .goods_List_YP .right .right_list li h4 a {
+            display: block;
+            color: black;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px; }
+          .whole .goods_List .goods_List_YP .right .right_list li .word {
+            width: 100%;
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 10px;
+            color: skyblue; }
+            .whole .goods_List .goods_List_YP .right .right_list li .word .price {
+              font-size: 25px; }
+    .whole .goods_List .goods_List_TV {
+      width: 1250px;
+      height: 800px;
+      margin: 0 auto;
+      border-bottom: 1px solid gray; }
+      .whole .goods_List .goods_List_TV .left {
+        width: 300px;
+        height: 100%;
+        float: left; }
+        .whole .goods_List .goods_List_TV .left h3 {
+          display: block;
+          width: 100%;
+          height: 200px;
+          line-height: 200px;
+          font-size: 23px;
+          font-weight: 400; }
+        .whole .goods_List .goods_List_TV .left span a {
+          color: blueviolet;
+          font-size: 15px; }
+      .whole .goods_List .goods_List_TV .right {
+        width: 950px;
+        height: 100%;
+        float: left; }
+        .whole .goods_List .goods_List_TV .right .right_list li {
+          float: left;
+          width: 222px;
+          height: 380px;
+          margin-left: 12px;
+          margin-top: 10px;
+          border: 1px solid #dbd5d5; }
+          .whole .goods_List .goods_List_TV .right .right_list li:hover {
+            border: 1px solid blue; }
+          .whole .goods_List .goods_List_TV .right .right_list li img {
+            width: 200px;
+            height: 250px;
+            margin-left: 10px;
+            margin-top: 10px; }
+          .whole .goods_List .goods_List_TV .right .right_list li h4 a {
+            display: block;
+            color: black;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px; }
+          .whole .goods_List .goods_List_TV .right .right_list li .word {
+            width: 100%;
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 10px;
+            color: skyblue; }
+            .whole .goods_List .goods_List_TV .right .right_list li .word .price {
+              font-size: 25px; }
+    .whole .goods_List .goods_List_GAME {
+      width: 1250px;
+      height: 800px;
+      margin: 0 auto;
+      border-bottom: 1px solid gray; }
+      .whole .goods_List .goods_List_GAME .left {
+        width: 300px;
+        height: 100%;
+        float: left; }
+        .whole .goods_List .goods_List_GAME .left h3 {
+          display: block;
+          width: 100%;
+          height: 200px;
+          line-height: 200px;
+          font-size: 23px;
+          font-weight: 400; }
+        .whole .goods_List .goods_List_GAME .left span a {
+          color: blueviolet;
+          font-size: 15px; }
+      .whole .goods_List .goods_List_GAME .right {
+        width: 950px;
+        height: 100%;
+        float: left; }
+        .whole .goods_List .goods_List_GAME .right .right_list li {
+          float: left;
+          width: 222px;
+          height: 380px;
+          margin-left: 12px;
+          margin-top: 10px;
+          border: 1px solid #dbd5d5; }
+          .whole .goods_List .goods_List_GAME .right .right_list li:hover {
+            border: 1px solid blue; }
+          .whole .goods_List .goods_List_GAME .right .right_list li img {
+            width: 200px;
+            height: 250px;
+            margin-left: 10px;
+            margin-top: 10px; }
+          .whole .goods_List .goods_List_GAME .right .right_list li h4 a {
+            display: block;
+            color: black;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px; }
+          .whole .goods_List .goods_List_GAME .right .right_list li .word {
+            width: 100%;
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 10px;
+            color: skyblue; }
+            .whole .goods_List .goods_List_GAME .right .right_list li .word .price {
+              font-size: 25px; }
+  .whole .footer {
+    width: 1500px;
+    height: 1020px;
+    margin: 0 auto; }
+    .whole .footer .footer1 {
+      width: 1500px;
+      height: 300px; }
+      .whole .footer .footer1 img {
+        width: 100%;
+        height: 100%; }
+    .whole .footer .footer2 {
+      width: 1500px;
+      height: 720px; }
+      .whole .footer .footer2 img {
+        width: 100%;
+        height: 100%; }

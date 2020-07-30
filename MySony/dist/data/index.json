@@ -1,0 +1,29 @@
+[
+    {
+    "title":"商品分类",
+    "subTitles":[
+        "推荐产品",
+        "电视机/音响",
+        "PlayStation®",
+        "微单™数码相机",
+        "镜头",
+        "数码相机",
+        "数码摄像机",
+        "手机","耳机",
+        "音乐播放器/录音棒",
+        "高解析度音频设备 ",
+        "数码配件 ",
+        "潮玩科技"
+    ],
+        "hots":[
+            {"id":0,"title":"WF-1000XM3","name":"真无线降噪耳机","img":"https://www.sonystyle.com.cn/content/dam/sonystyle/products/headphone/wf_1000xm3/product/img_wf_1000xm3_b2_800.jpg"},
+            {"id":1,"title":"NW-A105","name":"安卓 高解析度音乐播放器","img":"https://www.sonystyle.com.cn/content/dam/sonystyle/products/media_player/nw_a100/product/img_nw_a100_b2_img.jpg"},
+            {"id":2,"title":"PlayStation®4 Pro(1TB)","name":"为4K体验而生","img":"https://www.sonystyle.com.cn/content/dam/sonystyle/products/playstation/ps4_pro/product/img_ps4_pro_b_0.jpg"},
+            {"id":3,"title":"LSPX-S2","name":"晶雅音管","img":"https://www.sonystyle.com.cn/content/dam/sonystyle/products/headphone/wf_1000xm3/product/img_wf_1000xm3_b2_800.jpg"},
+            {"id":4,"title":"WF-1000XM3","name":"真无线降噪耳机","img":"https://www.sonystyle.com.cn/content/dam/sonystyle/products/srs/lspx_s2/product/img_lspx_s2_w1_800.jpg"},
+            {"id":5,"title":"WF-1000XM3","name":"真无线降噪耳机","img":"https://www.sonystyle.com.cn/content/dam/sonystyle/products/headphone/wh_1000xm3/product/img_wh_1000xm3_b_4.jpg"},
+            {"id":6,"title":"WF-1000XM3","name":"真无线降噪耳机","img":"https://www.sonystyle.com.cn/content/dam/sonystyle/products/hifi_component/ps_lx310bt/product/img_ps_lx310bt_b5_800.jpg"},
+            {"id":7,"title":"WF-1000XM3","name":"真无线降噪耳机","img":"https://www.sonystyle.com.cn/content/dam/sonystyle/products/srs/srs_xb33/product/img_srs_xb33_l2_800.jpg"}
+            ]
+            }
+        ]

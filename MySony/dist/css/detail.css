@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.whole {
+  width: 1500px; }
+  .whole .main {
+    margin: 0 auto;
+    width: 1300px;
+    height: 100%; }
+    .whole .main .name {
+      width: 100%;
+      height: 100px;
+      background-color: black;
+      position: relative; }
+      .whole .main .name h2 {
+        line-height: 100px;
+        color: white;
+        margin-left: 30px; }
+      .whole .main .name a {
+        color: white;
+        position: absolute;
+        right: 0;
+        line-height: 100px; }
+    .whole .main .small {
+      width: 520px;
+      height: 600px;
+      position: absolute;
+      left: 100px;
+      top: 100px;
+      border: 1px solid gray;
+      border-top: none; }
+      .whole .main .small img {
+        width: 100%;
+        height: 100%; }
+      .whole .main .small .mark {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        opacity: 0.3;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        display: none; }
+    .whole .main .big {
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      left: 680px;
+      top: 150px;
+      display: none;
+      overflow: hidden;
+      border: 1px solid black; }
+      .whole .main .big img {
+        position: absolute;
+        width: 1040px;
+        height: 1200px; }
+    .whole .main .word {
+      width: 780px;
+      height: 600px;
+      position: absolute;
+      left: 620px;
+      top: 100px; }
+      .whole .main .word .top {
+        width: 700px;
+        height: 200px;
+        display: flex;
+        margin-left: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+        border-bottom: 1px dashed gray; }
+      .whole .main .word .center {
+        width: 700px;
+        height: 100px;
+        display: flex;
+        margin-left: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+        border-bottom: 1px dashed gray; }
+      .whole .main .word .footer {
+        width: 700px;
+        height: 300px;
+        display: flex;
+        margin-left: 30px;
+        justify-content: space-around; }
+        .whole .main .word .footer button {
+          width: 300px;
+          height: 50px;
+          margin-top: 20px; }
+        .whole .main .word .footer .btn1 {
+          background-color: #3232e9;
+          border: 1px solid #3232e9;
+          color: white;
+          font-size: 20px;
+          outline: none; }
+        .whole .main .word .footer .btn2 {
+          width: 240px;
+          background-color: white;
+          border: 1px solid gray;
+          color: black;
+          font-size: 20px;
+          outline: none; }

@@ -1,0 +1,93 @@
+*{margin: 0;padding: 0}
+body{
+    background: url(../images/background.jpg) no-repeat 100%;
+}
+.register{
+    color: white;
+    width: 500px;
+    height: 500px;
+    background:skyblue;
+    margin: 100px 888px;
+    border: 2px solid black;
+    .user{
+        width: 500px;
+        height: 130px;
+        // background-color: green;
+        line-height: 130px;
+        text-align: center;
+        font-size: 20px;
+        input{
+            height: 50px;
+            width: 300px;
+            // border-radius: 10px;
+            outline: none;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+    }
+    .password{
+        color: white;
+        width: 500px;
+        height: 130px;
+        // background-color: green;
+        line-height: 130px;
+        text-align: center;
+        font-size: 20px;
+        input{
+            height: 50px;
+            width: 300px;
+            // border-radius: 10px;
+            outline: none;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+    }
+    .repassword{
+        color: white;
+        width: 500px;
+        height: 130px;
+        // background-color: green;
+        line-height: 130px;
+        text-align: center;
+        font-size: 20px;
+        input{
+            height: 50px;
+            width: 300px;
+            // border-radius: 10px;
+            outline: none;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+    }
+    .alert{
+        width: 500px;
+        height: 40px;
+        // background-color: red;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        display: none;
+    }
+    .btn{
+        width: 500px;
+        height: 70px;
+        // background-color: yellow;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        button{
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            // border-radius: 20px;
+            border: 2px solid black;
+            outline: none;
+            background-color: green;
+            color: white;
+        }
+        span a {
+            text-decoration: none;
+            color: red;
+        }
+    }
+}

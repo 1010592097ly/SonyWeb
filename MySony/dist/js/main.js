@@ -1,0 +1,21 @@
+console.log("加载成功");
+require.config({
+    paths:{
+        jquery:"jquery-1.11.3",
+        index:"index",
+        mysony:"mysony",
+        serve:"serve",
+        banner:"banner",
+        goods:"goods_list",
+        weblist:"weblist"
+    },
+})
+require(["index","mysony","serve","banner","goods","weblist"], function (index,mysony,serve,banner,goods,weblist){
+    index.main();
+    index.download();
+    mysony.mysonyload();
+    serve.serveload();
+    banner.banner();
+    goods.goodsload();
+    weblist.webload();
+})
